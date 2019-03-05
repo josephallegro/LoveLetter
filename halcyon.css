@@ -1,0 +1,360 @@
+body{
+	background-color: black;
+	max-width: 1400px;
+	margin: auto;
+}
+
+@font-face {
+  font-family: 'Flang';
+  src: url('Flang_Tight.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+header{
+	font-family: Flang, serif;
+	font-size: 125px;
+	text-align: center;
+	color: #99FFE6;
+	z-index: -1;
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	line-height: 0.9;
+}
+
+.content-container{
+	border: solid;
+	 padding: 15px;
+}
+
+#modal-content {
+	font-family: Flang, serif;
+    background-color: #FD64E5;
+    position: fixed;
+    z-index: 20000;
+    margin: 0 auto;
+    max-width: 599px;
+    max-height: 385px;
+    min-width: 268px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    display: flex;
+	font-size: 1.5em;
+}
+
+p{
+	margin: 0;
+}
+
+.close {
+  color: #fff;
+  padding-left: 13px;
+  font-size: 70px;
+  font-family: Flang, serif;
+  line-height: 0.4;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#container{
+	display: flex;
+}
+
+#container-left{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.symbol{
+	width: 42%;
+	padding: 40px;
+}
+
+/* 01 EARTHQUAKE*/
+#container1{
+position: relative;
+}
+
+.quake{
+  align-content: center;
+  padding: 20px;  
+}
+
+.iframe1{
+  position: absolute; 
+  margin: 0;
+  border: none;
+  width: 100vw;
+  height: 100vh;
+  -webkit-mask: url('SVG/earthquake.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position:center;
+  -webkit-mask-size: 93%;
+}
+
+/* 02 DON'T CRY*/
+#container2{
+position: relative;
+}
+
+.quake{
+  align-content: center;
+  padding: 20px;
+}
+
+.iframe2{
+  position: absolute; 
+  margin: 0;
+  border: none;
+  width: 100vw;
+  height: 100vh;
+  -webkit-mask: url('SVG/dontCry.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position:center;
+  -webkit-mask-size: 67%;
+}
+
+/* 03 REVIVAL*/
+#container3{
+position: relative;
+}
+
+.quake{
+  align-content: center;
+  padding: 20px;
+}
+
+.iframe3{
+  position: absolute; 
+  margin: 0;
+  border: none;
+  width: 100vw;
+  height: 100vh;
+  -webkit-mask: url('SVG/revival.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position:center;
+  -webkit-mask-size: 90%;
+}
+
+/* 04 SAILING*/
+#container4{
+position: relative;
+}
+
+.quake{
+  align-content: center;
+  padding: 20px;
+}
+
+.iframe4{
+  position: absolute; 
+  margin: 0;
+  border: none;
+  width: 100vw;
+  height: 100vh;
+  -webkit-mask: url('SVG/sailing.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position:center;
+  -webkit-mask-size: 75%;
+}
+
+/* 05 MEMORY BOY*/
+#container5{
+position: relative;
+}
+
+.quake{
+  align-content: center;
+  padding: 20px;
+}
+
+.iframe5{
+  position: absolute; 
+  margin: 0;
+  border: none;
+  width: 100vw;
+  height: 100vh;
+  -webkit-mask: url('SVG/memoryBoy.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position:center;
+  -webkit-mask-size: 90%;
+}
+
+/* 06 DESIRE LINES*/
+#container6{
+position: relative;
+}
+
+.quake{
+  align-content: center;
+  padding: 20px;
+}
+
+.iframe6{
+  position: absolute; 
+  margin: 0;
+  border: none;
+  width: 100vw;
+  height: 100vh;
+  -webkit-mask: url('SVG/desireLines.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position:center;
+  -webkit-mask-size: 54%;
+}
+
+/* 07 BASEMENT SCENE*/
+#container7{
+position: relative;
+}
+
+.quake{
+  align-content: center;
+  padding: 20px;
+}
+
+.iframe7{
+  position: absolute; 
+  margin: 0;
+  border: none;
+  width: 100vw;
+  height: 100vh;
+  -webkit-mask: url('SVG/basementScene.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position:center;
+  -webkit-mask-size: 64%;
+}
+
+/* 08 HELICOPTER*/
+#container8{
+position: relative;
+}
+
+.quake{
+  align-content: center;
+  padding: 20px;
+}
+
+.iframe8{
+  position: absolute; 
+  margin: 0;
+  border: none;
+  width: 100vw;
+  height: 100vh;
+  -webkit-mask: url('SVG/helicopter.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position:center;
+  -webkit-mask-size: 55%;
+}
+
+/* 09 FOUNTAIN STAIRS*/
+#container9{
+position: relative;
+}
+
+.quake{
+  align-content: center;
+  padding: 20px;
+}
+
+.iframe9{
+  position: absolute; 
+  margin: 0;
+  border: none;
+  width: 100vw;
+  height: 100vh;
+  -webkit-mask: url('SVG/fountainStairs.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position:center;
+  -webkit-mask-size: 69%;
+}
+
+/* 10 CORONADO*/
+#container10{
+position: relative;
+}
+
+.quake{
+  align-content: center;
+  padding: 20px;
+}
+
+.iframe10{
+  position: absolute; 
+  margin: 0;
+  border: none;
+  width: 100vw;
+  height: 100vh;
+  -webkit-mask: url('SVG/coronado.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position:center;
+  -webkit-mask-size: 70%;
+}
+
+/* 11 HE WOULD HAVE LAUGHED*/
+#container11{
+position: relative;
+}
+
+.quake{
+  align-content: center;
+  padding: 20px;
+}
+
+.iframe11{
+  position: absolute; 
+  margin: 0;
+  border: none;
+  width: 100vw;
+  height: 100vh;
+  -webkit-mask: url('SVG/laughed.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position:center;
+  -webkit-mask-size: 92%;
+}
+
+@media screen and (max-width: 1144px){
+  #modal-content{
+  font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 1004px){
+  header{
+  font-size: 12vw;
+  }
+}
+
+@media screen and (max-width: 700px){
+  #modal-content{
+  font-size: .9em;
+  }
+}
+
+@media screen and (max-width: 480px){
+  #container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #container-left{
+    flex-direction: column;
+    align-items: center;
+  }
+
+    .symbol{
+    width: 70%;
+  }
+}
