@@ -1,6 +1,6 @@
 body{
 	background-color: black;
-	max-width: 1400px;
+	max-width: 1500px;
 	margin: auto;
 }
 
@@ -83,6 +83,10 @@ p{
 	padding: 40px;
 }
 
+a svg:hover .symbol{
+  fill: #FD64E5;
+}
+
 /* 01 EARTHQUAKE*/
 #container1{
 position: relative;
@@ -103,6 +107,7 @@ position: relative;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position:center;
   -webkit-mask-size: 93%;
+  max-width: 1500px;
 }
 
 /* 02 DON'T CRY*/
@@ -125,6 +130,7 @@ position: relative;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position:center;
   -webkit-mask-size: 67%;
+  max-width: 1500px;
 }
 
 /* 03 REVIVAL*/
@@ -147,6 +153,7 @@ position: relative;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position:center;
   -webkit-mask-size: 90%;
+  max-width: 1500px;
 }
 
 /* 04 SAILING*/
@@ -169,6 +176,7 @@ position: relative;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position:center;
   -webkit-mask-size: 75%;
+  max-width: 1500px;
 }
 
 /* 05 MEMORY BOY*/
@@ -191,6 +199,7 @@ position: relative;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position:center;
   -webkit-mask-size: 90%;
+  max-width: 1500px;
 }
 
 /* 06 DESIRE LINES*/
@@ -213,6 +222,7 @@ position: relative;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position:center;
   -webkit-mask-size: 54%;
+  max-width: 1500px;
 }
 
 /* 07 BASEMENT SCENE*/
@@ -235,6 +245,7 @@ position: relative;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position:center;
   -webkit-mask-size: 64%;
+  max-width: 1500px;
 }
 
 /* 08 HELICOPTER*/
@@ -257,6 +268,7 @@ position: relative;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position:center;
   -webkit-mask-size: 55%;
+  max-width: 1500px;
 }
 
 /* 09 FOUNTAIN STAIRS*/
@@ -279,6 +291,7 @@ position: relative;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position:center;
   -webkit-mask-size: 69%;
+  max-width: 1500px;
 }
 
 /* 10 CORONADO*/
@@ -301,6 +314,7 @@ position: relative;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position:center;
   -webkit-mask-size: 70%;
+  max-width: 1500px;
 }
 
 /* 11 HE WOULD HAVE LAUGHED*/
@@ -323,6 +337,7 @@ position: relative;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position:center;
   -webkit-mask-size: 92%;
+  max-width: 1500px;
 }
 
 @media screen and (max-width: 1144px){
